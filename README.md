@@ -1,6 +1,8 @@
 # Zomato-SQL-Project
 This project performs a comprehensive analysis of Zomato's food delivery data using **MySQL**. The focus is on customer behavior, restaurant performance, rider efficiency, and overall business KPIs — answered through 20 real-world business queries.
 
+![Zomato](Zomato.png)
+
 ---
 
 ## 🧰 Tools Used
@@ -30,6 +32,10 @@ The project is based on five relational tables:
 
 ---
 
+## Entity Relationship Diagram (ERD)
+![ERD](ERD.png)
+
+---
 ## CREATING DATABASE
 ```sql
 CREATE DATABASE zomato_db;
@@ -540,5 +546,64 @@ WHERE YEAR(o.order_date) = 2023
 GROUP BY r.city
 ORDER BY city_rank;
 ```
+---
+
+## 📌 Key SQL Concepts Used
+
+- ✅ Window Functions (DENSE_RANK, LAG, etc.)  
+- ✅ Aggregations with `GROUP BY`, `HAVING`, and subqueries  
+- ✅ Joins across multiple tables  
+- ✅ Date/time functions (`YEAR()`, `DATE_FORMAT()`)  
+- ✅ CTEs (`WITH`)   
+- ✅ CASE statements for conditional logic  
+- ✅ Indexing for performance improvement
+
+---
+
+## Key Insights 
+
+- Peak Ordering Time: Most orders are placed between 2 PM– 4 PM, while 12 AM – 2 AM sees minimal activity.
+
+- Top Customers: Customer id 6,7,5 placed over 750 orders each with an average order value of ₹300–₹350.
+
+- High Non-Deliveries: Restaurant id  5,7,3 show the highest non-delivery rates.
+
+- Seasonal Trends: Spring has the highest dish sales, while winter has the lowest, indicating seasonal food demand.
+
+- Underperforming Riders: Rider id 1,2,3,4 consistently show longer delivery times and receive 3-star ratings.
+
+- Top-Selling Items by City: Dishes like Chicken Biryani, Mutton Rogan Josh, and Paneer Butter Masala are best-sellers across major cities.
+
+---
+
+## Actionable Recommendations
+
+- Introduce Late-Night Offers: Encourage more orders during 12 AM – 2 AM with special discounts or combos.
+
+- Reward Loyal Customers: Launch a VIP program or exclusive deals for high-frequency users to boost retention.
+
+- Improve Restaurant Reliability: Audit and support restaurants with high non-delivery rates to reduce cancellations.
+
+- Optimize Delivery Staff: Provide training or reassignment for low-rated riders to enhance customer satisfaction.
+
+- Plan Seasonal Campaigns: Launch season-specific menus or offers during spring, and create winter discounts to balance demand.
+
+- Promote Best-Selling Dishes: Use regional best-sellers in targeted ads and bundled offers to drive repeat sales.
+
+---
+
+## 📂 Project Files
+
+- `Zomato Project.sql` – All 20 SQL business queries
+
+---
+
+## 📌 Conclusion
+
+This project showcases my **SQL querying skills**, use of **analytical logic**, and ability to derive **business insights** from raw transactional data. It demonstrates a real-world business scenario like **Zomato, Swiggy, or UberEats**, and answers key questions stakeholders care about.
+
+> This is part of my portfolio as an aspiring **Data Analyst**, using only **SQL** for this project.
+
+---
 
 
