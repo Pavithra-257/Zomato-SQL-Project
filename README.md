@@ -1,6 +1,7 @@
 # Zomato-SQL-Project
 This project performs a comprehensive analysis of Zomato's food delivery data using **MySQL**. The focus is on customer behavior, restaurant performance, rider efficiency, and overall business KPIs — answered through 20 real-world business queries.
 
+# Zomato Data Analysis 
 ![Zomato](Zomato.png)
 
 ---
@@ -594,13 +595,15 @@ ORDER BY city_rank;
 
 ## 📂 Project Files
 
-- `Zomato Project.sql` – All 20 SQL business queries
+- `Zomato Project.sql` – Contains All 20 SQL business queries
+- `ERD.png` – Entity Relationship Diagram
+- `Zomato.png` – LOGO
 
 ---
 
 ## 📌 Conclusion
 
-This project showcases my **SQL querying skills**, use of **analytical logic**, and ability to derive **business insights** from raw transactional data. It demonstrates a real-world business scenario like **Zomato, Swiggy, or UberEats**, and answers key questions stakeholders care about.
+This project showcases my **SQL querying skills**, use of **analytical logic**, and ability to derive **business insights** from raw transactional data. It demonstrates a real-world business scenario like **Zomato** and answers key questions stakeholders care about.
 
 > This is part of my portfolio as an aspiring **Data Analyst**, using only **SQL** for this project.
 
